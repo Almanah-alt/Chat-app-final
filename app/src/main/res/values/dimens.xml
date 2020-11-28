@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_layout_horizontal">40dp</dimen>
+    <dimen name="margin_layout_vertical">150dp</dimen>
+    <dimen name="padding_layout_horizontal">40dp</dimen>
+    <dimen name="padding_layout_vertical">70dp</dimen>
+    <dimen name="paddingBottom_edittext">5dp</dimen>
+    <dimen name="link_text_padding">20dp</dimen>
+
+    <!--  Button corner Radius  -->
+    <dimen name="btn_corner">10dp</dimen>
+
+    <!--    Card Elevation -->
+    <dimen name="card_elevation">0dp</dimen>
+    <dimen name="card_corner_radius">10dp</dimen>
+
+    <!--    TExt size Card item email-->
+    <dimen name="card_email_text_size">18sp</dimen>
+
+    <!--   layout margin bottom-->
+    <dimen name="recyclerview_bottom">60dp</dimen>
+
+<!--    padding message-->
+    <dimen name="padding_msg">10dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_bottom_rec">80dp</dimen>
+
+
+</resources>

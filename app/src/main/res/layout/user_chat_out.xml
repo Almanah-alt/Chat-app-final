@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/link_text_padding"
+    android:layout_gravity="end">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="end"
+        android:background="@drawable/btn_drawable"
+        android:padding="@dimen/padding_msg"
+        >
+        <TextView
+            android:id="@+id/user_msg_own"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/some_text"
+            android:textAlignment="textEnd"
+            android:padding="@dimen/paddingBottom_edittext"
+
+            />
+        <TextView
+            android:id="@+id/user_msg_date_own"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/some_text"
+            android:padding="@dimen/paddingBottom_edittext"
+            android:textAlignment="textEnd"
+            />
+    </LinearLayout>
+
+</FrameLayout>

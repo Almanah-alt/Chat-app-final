@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="login_email">Enter your email</string>
+    <string name="login_psw">Enter your password</string>
+    <string name="login_signIn_btn">Sign In</string>
+    <string name="link_to_reg">Don\'t have an account? Sign up =)</string>
+    <string name="username_text">Enter your username</string>
+    <string name="repeat_psw_text">Repeat your password</string>
+    <string name="sign_up_btn">Sign up</string>
+    <string name="start_conversation">Start conversation</string>
+    <string name="some_text">some text</string>
+    <string name="send_msg_btn">SEND</string>
+    <string name="hint_msg">Write message</string>
+    <string name="chat">chat</string>
+    <string name="profile">profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank sign in fragment</string>
+    <string name="sssss">ssssssss fragment</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="search">Search</string>
+    <string name="hint_add_name_photo">Введите своё имя и при желании добавьте фото профиля</string>
+    <string name="photo_label">Фото</string>
+    <string name="take_photo">Сделать снимок</string>
+    <string name="choose_photo">Выбрать фото</string>
+    <string name="profile_toolbar_title">Профиль</string>
+    <string name="chat_list_toolbar">Список чатов</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorBlue">#03A9F4</color>
+    <color name="hintTextColor">#AFAFAF</color>
+    <color name="card_bg_color">#373535</color>
+    <color name="card_bg_opacity">#D8000000</color>
+    <color name="colorPrimaryDark">#222831</color>
+    <color name="page_bg_color">#393e46</color>
+    <color name="color_text">#eeeeee</color>
+    <color name="color_btn">#ffd369</color>
+    <color name="grey_color">#FFFFFF</color>
+</resources>
