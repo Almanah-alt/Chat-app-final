@@ -13,6 +13,10 @@ import com.example.simplechatapp.fragment.SignInFragment
 import com.example.simplechatapp.fragment.SignUpFragment
 import kotlinx.android.synthetic.main.activity_auth.*
 import kotlinx.android.synthetic.main.activity_navigation.*
+import kotlinx.android.synthetic.main.fragment_sign_in_.*
+import kotlinx.android.synthetic.main.fragment_sign_in_.view.*
+import kotlinx.android.synthetic.main.fragment_sign_up.*
+import kotlinx.android.synthetic.main.fragment_sign_up.view.*
 
 class AuthActivity : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.M)
@@ -43,6 +47,13 @@ class AuthActivity : AppCompatActivity() {
             sign_up_view.setTextAppearance(R.style.Auth_Tab_Text_Not_Selected)
             sign_in_view.setBackgroundResource(R.drawable.tab_selector_bg)
             sign_up_view.setBackgroundResource(R.drawable.tab_not_selector_bg)
+
+            sign_up_fragment.sign_up_email.text?.clear()
+            sign_up_fragment.sign_up_username.text?.clear()
+            sign_up_fragment.sign_up_psw.text?.clear()
+            sign_up_fragment.sign_up_psw_repeat.text?.clear()
+
+
             supportFragmentManager.beginTransaction().apply {
                 replace(R.id.frame_layout_fragment_auth, signInFragment)
                 addToBackStack(null)
@@ -56,6 +67,10 @@ class AuthActivity : AppCompatActivity() {
             sign_in_view.setTextAppearance(R.style.Auth_Tab_Text_Not_Selected)
             sign_up_view.setBackgroundResource(R.drawable.tab_selector_bg)
             sign_in_view.setBackgroundResource(R.drawable.tab_not_selector_bg)
+
+            sign_in_fragment.login_psw.text?.clear()
+            sign_in_fragment.login_email.text?.clear()
+
             supportFragmentManager.beginTransaction().apply {
                 replace(R.id.frame_layout_fragment_auth, signUpFragment)
                 addToBackStack(null)

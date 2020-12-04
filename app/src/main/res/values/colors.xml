@@ -11,4 +11,5 @@
     <color name="color_text">#eeeeee</color>
     <color name="color_btn">#ffd369</color>
     <color name="grey_color">#FFFFFF</color>
+    <color name="toolbar_bg_color">#191A1B</color>
 </resources>

@@ -6,5 +6,8 @@ class FirebaseConstant {
         const val USER_COLLECTION = "users"
         const val MESSAGE_COLLECTION = "msg"
         const val USER_ID = "userid"
+
+        const val ERROR_MSG = "Заполните поле"
+        const val SUCCESS_MSG = "Saveddddd"
     }
 }

@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="start"
-        android:background="@drawable/btn_drawable"
+        android:background="@drawable/edit_text_bg"
         android:padding="@dimen/padding_msg"
         >
         <TextView
@@ -20,7 +20,7 @@
             tools:text="@string/some_text"
             android:textAlignment="textStart"
             android:padding="@dimen/paddingBottom_edittext"
-
+            android:textColor="@color/colorBlack"
             />
         <TextView
             android:id="@+id/user_msg_date"
@@ -29,6 +29,7 @@
             tools:text="@string/some_text"
             android:padding="@dimen/paddingBottom_edittext"
             android:textAlignment="textStart"
+            android:textColor="@color/colorBlack"
             />
     </LinearLayout>
 

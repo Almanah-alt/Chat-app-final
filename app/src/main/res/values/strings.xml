@@ -1,28 +1,37 @@
 <resources>
-    <string name="app_name">ChatApp</string>
-    <string name="login_email">Enter your email</string>
-    <string name="login_psw">Enter your password</string>
-    <string name="login_signIn_btn">Sign In</string>
-    <string name="link_to_reg">Don\'t have an account? Sign up =)</string>
-    <string name="username_text">Enter your username</string>
-    <string name="repeat_psw_text">Repeat your password</string>
-    <string name="sign_up_btn">Sign up</string>
-    <string name="start_conversation">Start conversation</string>
+    <string name="app_name">Онлайн чат</string>
+    <string name="login_email">Веедите вашу почту</string>
+    <string name="login_psw">Введите пароль</string>
+    <string name="login_signIn_btn">Логин</string>
+    <string name="username_text">Введиет имя пользователя</string>
+    <string name="repeat_psw_text">Повторите пароль</string>
+    <string name="sign_up_btn">Зарегистрироватьcя</string>
+    <string name="start_conversation">Начать чат</string>
     <string name="some_text">some text</string>
-    <string name="send_msg_btn">SEND</string>
-    <string name="hint_msg">Write message</string>
+    <string name="send_msg_btn">Отправить</string>
+    <string name="hint_msg">Напишите сообщение …</string>
     <string name="chat">chat</string>
     <string name="profile">profile</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank sign in fragment</string>
     <string name="sssss">ssssssss fragment</string>
-    <string name="sign_in">Sign in</string>
-    <string name="sign_up">Sign up</string>
-    <string name="search">Search</string>
+    <string name="sign_in">Логин</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="search">Поиск</string>
     <string name="hint_add_name_photo">Введите своё имя и при желании добавьте фото профиля</string>
     <string name="photo_label">Фото</string>
     <string name="take_photo">Сделать снимок</string>
     <string name="choose_photo">Выбрать фото</string>
     <string name="profile_toolbar_title">Профиль</string>
     <string name="chat_list_toolbar">Список чатов</string>
+    <string name="new_chat">Новый чат</string>
+    <string name="page_title">page title</string>
+    <string name="user_chat_list">Чат пользователя</string>
+    <string name="new_user_list">Создать чат</string>
+    <string name="email_label">Почта</string>
+    <string name="username_label">Имя пользователя</string>
+    <string name="update_psw_label">Изменить пароль</string>
+    <string name="save_label">Сохранить</string>
+    <string name="repeat_psw">Повторите новый пароль</string>
+    <string name="new_psw">Новый пароль</string>
+    <string name="old_psw">Старый пароль</string>
 </resources>

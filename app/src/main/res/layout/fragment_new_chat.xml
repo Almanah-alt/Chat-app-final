@@ -3,10 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/page_bg_color"
-    tools:context=".fragment.NewChatFragment">
+    android:background="@drawable/view_bg_270"
+    tools:context=".fragment.NewChatFragment"
+    android:id="@+id/new_chat_list">
 
-    <include layout="@layout/app_bar_main"/>
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/init_user_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </FrameLayout>

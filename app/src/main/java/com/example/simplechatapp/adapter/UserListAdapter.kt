@@ -36,7 +36,7 @@ class UserListAdapter(
             view.list_user_email.text = user.email
             if (user.status){
                 view.list_user_status.text = "online"
-            }
+            }else view.list_user_status.text = "offline"
             view.setOnClickListener{
                 onUserClick(user)
             }

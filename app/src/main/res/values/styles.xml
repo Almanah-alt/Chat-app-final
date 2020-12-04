@@ -9,9 +9,11 @@
     </style>
 
     <style name="edit_text">
+        <item name="android:textColorHint">#AFAFAF</item>
         <item name="android:textColor">@color/color_text</item>
         <item name="android:textSize">18sp</item>
         <item name="backgroundTint">@color/hintTextColor</item>
+        <item name="fontFamily">sans-serif-medium</item>
     </style>
 
     <style name="btn_bg_blue">
